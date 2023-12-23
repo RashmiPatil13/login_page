@@ -33,10 +33,10 @@ function App() {
     if(result.message === 'SUCCESS'){
       const token = result.token
        localStorage.setItem(' atuny0',token)
-      // alert('You are logged in.');
+     alert('You are logged in.');
       this.goToMain();
      } else {
-        //  alert('Please check your login information.');
+         alert('Please check your login information.');
      }
   });
 }
